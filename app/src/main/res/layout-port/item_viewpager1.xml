@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/coconut" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="18dp"
+            android:orientation="vertical">
+
+            <com.arcsoft.arcfacedemo.customfonts.MyTextView_GillSansMT_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中秋活动！"
+                android:textColor="#FFFFFF"
+                android:textSize="21.3sp"/>
+
+            <com.arcsoft.arcfacedemo.customfonts.MyTextView_GillSansMT_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所有房型七折起！！"
+                android:textColor="#FFFFFF"
+                android:textSize="8sp"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="60.7dp"
+            android:layout_height="78dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="ContentDescription"
+            android:background="@drawable/rounded_corner_5dp"
+            android:layout_marginLeft="7dp">
+
+
+            <ImageView
+                android:id="@+id/amities_image"
+                android:layout_width="21.7dp"
+                android:layout_height="21.7dp"
+                android:layout_gravity="center"
+                android:src="@drawable/wifi" />
+
+            <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                android:id="@+id/amities_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10.7sp"
+                android:textColor="#4f4f4f"
+                android:layout_marginTop="14dp"
+                android:layout_gravity="center"
+                android:text="Wi-Fi"
+                />
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/rectangle"
+        android:elevation="4dp"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <com.arcsoft.arcfacedemo.customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="16dp"
+            android:hint="Search for Hotels, City, or Locaton"
+            android:maxLines="1"
+            android:paddingLeft="16dp"
+            android:paddingTop="17dp"
+            android:paddingBottom="17dp"
+            android:textColorHint="#cfcfcf"
+            android:textSize="11.7sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17.3dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/shadow1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="ContentDescription">
+
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="CHECK IN"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#3ebbe9"
+                        android:textSize="10.3sp" />
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="22 Oct"
+                        android:textColor="#4f4f4f"
+                        android:textSize="13.3sp" />
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Mon, 12 am"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="11dp"
+                        android:textColor="#4f4f4f"
+                        android:textSize="11.7sp" />
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:background="@drawable/shadow1"
+                android:orientation="vertical"
+                tools:ignore="ContentDescription">
+
+
+                <customfonts.MyTextView_OpenSans_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="CHECK OUT"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#3ebbe9"
+                    android:textSize="10.3sp" />
+
+                <customfonts.MyTextView_OpenSans_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="24 Oct"
+                    android:textColor="#4f4f4f"
+                    android:textSize="13.3sp" />
+
+                <customfonts.MyTextView_OpenSans_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Wed, 11 pm"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="11dp"
+                    android:textColor="#4f4f4f"
+                    android:textSize="11.7sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:background="@drawable/shadow1"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:orientation="vertical"
+                tools:ignore="ContentDescription">
+
+
+                <customfonts.MyTextView_OpenSans_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="ROOMS"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#3ebbe9"
+                    android:textSize="10.3sp" />
+
+                <customfonts.MyTextView_OpenSans_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="2 Rooms"
+                    android:textColor="#4f4f4f"
+                    android:textSize="13.3sp" />
+
+                <customfonts.MyTextView_OpenSans_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="3 Adults"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="11dp"
+                    android:textColor="#4f4f4f"
+                    android:textSize="11.7sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.3dp"
+        android:paddingLeft="13dp"
+        android:paddingBottom="50dp"
+        android:clipToPadding="false"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

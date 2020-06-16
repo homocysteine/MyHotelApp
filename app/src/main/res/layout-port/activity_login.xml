@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arcsoft.arcfacedemo.page.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+
+        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60.3dp"
+            android:gravity="center_horizontal"
+            android:text="虹软国际大酒店"
+            android:textColor="#4f4f4f"
+            android:textSize="20sp" />
+
+        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:gravity="center_horizontal"
+            android:text="享受最极致的服务"
+            android:textColor="#4f4f4f"
+            android:textSize="11.7sp" />
+
+
+        <ImageView
+            android:layout_width="213dp"
+            android:layout_height="126.3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22.3dp"
+            android:src="@drawable/login_image" />
+
+
+        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+            android:id="@+id/loginButton"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/blue_fill__rounded_color"
+            android:gravity="center"
+            android:text="人脸识别登录"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="84.3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/login_bg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="14dp"
+            android:orientation="horizontal"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

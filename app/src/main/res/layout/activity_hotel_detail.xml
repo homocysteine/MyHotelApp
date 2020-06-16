@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page.HotelDetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txtbook"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="200.3dp" />
+
+                    <ImageView
+                        android:id="@+id/left_nav"
+                        android:layout_width="11dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical|left"
+                        android:src="@drawable/left_arrow" />
+
+                    <ImageView
+                        android:id="@+id/right_nav"
+                        android:layout_width="11dp"
+                        android:layout_height="18dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_vertical|right"
+                        android:src="@drawable/right_arrow" />
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.7dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="13dp">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="商务标准间"
+                            android:textColor="#4f4f4f"
+                            android:textSize="15sp" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:orientation="horizontal">
+
+
+
+
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="40dp"
+                                android:layout_height="32.3dp"
+                                android:layout_gravity="center"
+                                app:cardCornerRadius="5dp"
+                                android:layout_margin="3dp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="20.7dp"
+                                    android:layout_height="20.7dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/map" />
+
+                            </android.support.v7.widget.CardView>
+
+
+
+                            <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="11.3dp"
+                                android:text="虹软大酒店427"
+                                android:textColor="#4f4f4f"
+                                android:layout_marginTop="3dp"
+                                android:textSize="12.3sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                        android:layout_width="43dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/curve_green_rectangle"
+                        android:text="4.5"
+                        android:gravity="center"
+                        android:textColor="#fefdfd"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="13dp"
+                    android:background="#e3e3e3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="12.7dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginBottom="12.7dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="11.3dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/flame" />
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9dp"
+                        android:gravity="center_horizontal"
+                        android:text="商务人士选择率"
+                        android:textColor="#4f4f4f"
+                        android:textSize="12.3sp" />
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center_horizontal"
+                        android:text="79%"
+                        android:textColor="#4f4f4f"
+                        android:textSize="12.3sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="13dp"
+                    android:background="#e3e3e3" />
+
+
+                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="34dp"
+                    android:text="额外的服务"
+                    android:textColor="#3dabe8"
+                    android:textSize="15sp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/amities_recycleview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="14dp"></android.support.v7.widget.RecyclerView>
+
+
+                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:text="顾客反馈"
+                    android:textColor="#3dabe8"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="18.3dp"
+                    android:orientation="horizontal">
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                        android:layout_width="43dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/curve_green_rectangle"
+                        android:text="4.5"
+                        android:gravity="center"
+                        android:textColor="#fefdfd"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="7dp"
+                        android:orientation="vertical">
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Very Good"
+                            android:textColor="#93cc1a"
+                            android:textSize="10.7sp" />
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="392 反馈"
+                            android:textColor="#93cc1a"
+                            android:textSize="10.7sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/review_recycleview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="21dp">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="32dp"
+                    android:text="账单详情"
+                    android:textColor="#3dabe8"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="18.3dp">
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/linear"
+                            android:layout_width="332.3dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:background="@drawable/rounded_corner_5dp"
+                            android:orientation="vertical"
+                            tools:ignore="ContentDescription">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="24dp"
+                                android:orientation="horizontal"
+                                android:paddingLeft="13dp"
+                                android:paddingRight="13dp">
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="订房者"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="卢本伟"
+                                    android:textColor="#f92a44"
+                                    android:textSize="12.3sp" />
+
+                                <ImageView
+                                    android:layout_width="10.3dp"
+                                    android:layout_height="10.3dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/edit" />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="13dp"
+                                android:layout_marginTop="26dp"
+                                android:layout_marginRight="13dp"
+                                android:orientation="horizontal">
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="原始费用"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="￥ 1812"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1dp"
+                                android:layout_marginLeft="7.3dp"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginRight="7.3dp"
+                                android:background="#e3e3e3" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="13dp"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginRight="13dp"
+                                android:orientation="horizontal">
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="活动折扣"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="- ￥496"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1dp"
+                                android:layout_marginLeft="7.3dp"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginRight="7.3dp"
+                                android:background="#e3e3e3" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="13dp"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginRight="13dp"
+                                android:orientation="horizontal">
+
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="VIP折扣"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:text=""
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textColor="#f92a44"
+                                    android:textSize="10.7sp" />
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:text="- ￥392"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1dp"
+                                android:layout_marginLeft="7.3dp"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginRight="7.3dp"
+                                android:background="#e3e3e3" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="13dp"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginRight="13dp"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="最终价格"
+                                    android:textColor="#4f4f4f"
+                                    android:textSize="12.3sp" />
+
+                                <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:text="￥ 734"
+                                    android:textColor="#43a045"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginBottom="13.3dp"
+                    android:layout_marginTop="28dp"
+                    android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:button="@drawable/custom_checkbox"/>
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12.3sp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_gravity="center"
+                        android:textColor="#4f4f4f"
+                        android:gravity="center_horizontal"
+                        android:text="我阅读并同意"
+                        />
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12.3sp"
+                        android:textColor="#f92a44"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center_horizontal"
+                        android:text="顾客须知"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+    <com.arcsoft.arcfacedemo.customfonts.MyTextView_PTSans_Bold
+        android:id="@+id/txtbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13.3sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/greenrectangle"
+        android:paddingTop="19.3dp"
+        android:paddingBottom="19.3dp"
+        android:lineSpacingExtra="-9.3sp"
+        android:text="订购房间"
+        />
+</RelativeLayout>

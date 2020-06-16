@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        style="@style/Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="27dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/curve_rect"
+                android:orientation="vertical"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginRight="8.7dp"
+                android:paddingTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:orientation="vertical">
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hotel Surya Palace"
+                        android:textColor="#4f4f4f"
+                        android:textSize="16.5sp" />
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Vadodara"
+                        android:textColor="#4f4f4f"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25.7dp"
+                    android:layout_marginRight="25.7dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="13dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/room" />
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="1 Rooms"
+                            android:textColor="#4f4f4f"
+                            android:textSize="10.7sp" />
+                    </LinearLayout>
+
+                    <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Rs. 699"
+                        android:textColor="#43a047"
+                        android:textSize="16.7sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="13dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/adults" />
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="2 Adults"
+                            android:textColor="#4f4f4f"
+                            android:textSize="10.7sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+            android:layout_width="143dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_blue_gradient"
+            android:elevation="4dp"
+           android:gravity="center"
+            android:text="13 Oct - 15 Oct"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+</LinearLayout>

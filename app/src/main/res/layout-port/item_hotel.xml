@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="7dp"
+            android:layout_marginBottom="3dp"
+            tools:ignore="ContentDescription">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <ImageView
+                        android:id="@+id/roompic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/green_rectangle"
+                        android:orientation="vertical">
+
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:text="4.5"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginBottom="13dp"
+                    android:orientation="vertical"
+                    android:paddingRight="13dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="13dp">
+
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                            android:id="@+id/hotel_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Hotel Surya Palace"
+                            android:textColor="#4f4f4f"
+                            android:textSize="15sp" />
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_Opensans_SemiBold
+                            android:layout_width="46dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="9dp"
+                            android:background="@drawable/blue_gradient"
+                            android:gravity="center"
+                            android:text="65% OFF"
+                            android:textColor="@color/white"
+                            android:textSize="9.5sp" />
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="￥ 699"
+                            android:textColor="#43a047"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="13dp">
+
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="1"
+                            android:text="VIP享受额外折扣"
+                            android:textColor="#aeaeae"
+                            android:textSize="12.5sp" />
+
+                        <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Regular
+                            android:id="@+id/strikeText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/striketext"
+                            android:textColor="#4f4f4f"
+                            android:textSize="12.5sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+</LinearLayout>

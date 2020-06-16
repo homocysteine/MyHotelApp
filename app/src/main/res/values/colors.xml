@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_bg_notification">#80000000</color>
+    <color name="color_bg_name">#80000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorTransParent">#00000000</color>
+
+
+
+
+
+    <color name="slide_1_active_color">#FFFFFF</color>
+    <color name="slide_2_active_color">#FFFFFF</color>
+    <color name="slide_3_active_color">#FFFFFF</color>
+    <color name="slide_4_active_color">#FFFFFF</color>
+    <color name="slide_5_active_color">#FFFFFF</color>
+
+
+    <color name="slide_1_inactive_color">#9f9f9f</color>
+    <color name="slide_2_inactive_color">#9f9f9f</color>
+    <color name="slide_3_inactive_color">#9f9f9f</color>
+    <color name="slide_4_inactive_color">#9f9f9f</color>
+    <color name="slide_5_inactive_color">#9f9f9f</color>
+    <color name="black">#505050</color>
+    <color name="blue_text">#3ebbe9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="splash_bg">#40ade2</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/slide_1_active_color</item>
+        <item>@color/slide_2_active_color</item>
+        <item>@color/slide_3_active_color</item>
+        <item>@color/slide_4_active_color</item>
+        <item>@color/slide_5_active_color</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/slide_1_inactive_color</item>
+        <item>@color/slide_2_inactive_color</item>
+        <item>@color/slide_3_inactive_color</item>
+        <item>@color/slide_4_inactive_color</item>
+        <item>@color/slide_5_inactive_color</item>
+    </array>
+</resources>

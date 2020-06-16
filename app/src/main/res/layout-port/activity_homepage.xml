@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.HomePageActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="213dp" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutDots1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="53dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" />
+
+
+                    <LinearLayout
+                        android:layout_width="260.3dp"
+                        android:layout_height="39dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="18dp"
+                        android:background="@drawable/white_roundshape"
+                        android:elevation="4dp"
+                        android:orientation="horizontal">
+
+                        <com.arcsoft.arcfacedemo.customfonts.EditText_Roboto_Regular
+                            android:id="@+id/edtsearch"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/search"
+                            android:drawablePadding="16dp"
+                            android:hint="具体搜索您想要的类型"
+                            android:maxLines="1"
+                            android:windowSoftInputMode="adjustResize|stateHidden"
+                            android:paddingLeft="14dp"
+                            android:textColorHint="#cfcfcf"
+                            android:textSize="11.7sp" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.5dp"
+                        android:layout_marginTop="21.3dp"
+                        android:layout_marginRight="13.5dp">
+
+                        <ImageView
+                            android:layout_width="23.6dp"
+                            android:layout_height="17.6dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/menu" />
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/dp" />
+
+                    </RelativeLayout>
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="酒店配套服务"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="15sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/popular_location_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="14dp"
+                android:paddingLeft="17dp"
+                android:clipToPadding="false">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+            <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.7dp"
+                android:layout_marginTop="40dp"
+                android:text="所有房型"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="15sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hotel_recyclevview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="14dp"
+                android:paddingLeft="8dp"
+                android:clipToPadding="false">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+            <com.arcsoft.arcfacedemo.customfonts.MyTextView_OpenSans_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="猜您喜欢"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:layout_marginLeft="13.7dp"
+                android:textSize="15sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/offer_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="18dp"
+                android:paddingLeft="8dp"
+                android:clipToPadding="false">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
